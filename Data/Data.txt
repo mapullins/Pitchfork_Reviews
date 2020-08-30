@@ -1,5 +1,4 @@
-The zipped file contains 18348 reviews from Pitchfork (every one they've done to August 30th, 2020). Due to error on my part, there may be some duplicates and
-potentially some missing reviews. For each entry, the following data is recorded
+The zipped files contain 18348 reviews (in total) from Pitchfork (every one they've done to August 30th, 2020). Due to error on my part, there may be some duplicates and potentially some missing reviews. The unzipped and unpickled form are two Pandas DataFrames that can be combined easily. For each entry, the following data is recorded
 
 artist - Name of the music artist
 album - Name of the album
