@@ -1,0 +1,21 @@
+The zipped file contains 18348 reviews from Pitchfork (every one they've done to August 30th, 2020). Due to error on my part, there may be some duplicates and
+potentially some missing reviews. For each entry, the following data is recorded
+
+artist - Name of the music artist
+album - Name of the album
+score - Score that Pitchfork gave the album (out of 10)
+labels - Labels associated to the album (presented as list)
+genre - Genres associated to the album (presented as list)
+year - Year of album (or reissue in many cases)
+reviewer - Who wrote the review
+title - Title of the person who wrote the review
+pub_date - Year the review was published
+abstract - Short summary of the review (In early years, this was the first sentence-ish)
+review - Full review text
+art - Link to the album artwork
+
+The infomation found in some of the features is very messy, so there is some cleaning that needs to be done if you want to use it.
+
+The file Pitchfork_Scraper.ipynb contains the code used to collect the data. There are improvements that could be made to it.
+I'd recommend only scraping the data in batches, creating a feature that saves missed reviews and pages for scraping later, and pickling the data as you
+collect it.
