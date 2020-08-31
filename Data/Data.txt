@@ -1,4 +1,4 @@
-The zipped files contain 18348 reviews (in total) from Pitchfork (every one they've done to August 30th, 2020). Due to error on my part, there may be some duplicates and potentially some missing reviews. The unzipped and unpickled form are two Pandas DataFrames that can be combined easily. For each entry, the following data is recorded
+The zipped files contain 22908 reviews (in total) from Pitchfork (every one they've done to August 30th, 2020). Due to error on my part, there are duplicates, so that must be handled if you want to use the data. The unzipped and unpickled form are three Pandas DataFrames that can be combined easily with a concat command. For each entry, the following data is recorded
 
 artist - Name of the music artist
 album - Name of the album
@@ -17,4 +17,4 @@ The infomation found in some of the features is very messy, so there is some cle
 
 The file Pitchfork_Scraper.ipynb contains the code used to collect the data. There are improvements that could be made to it.
 I'd recommend only scraping the data in batches, creating a feature that saves missed reviews and pages for scraping later, and pickling the data as you
-collect it.
+collect it. Alternatively, you can use the data that I have already collected and save yourself a weekend of scraping.
