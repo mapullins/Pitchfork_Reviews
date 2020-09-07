@@ -1,4 +1,6 @@
-The zipped files contain 22908 reviews (in total) from Pitchfork (every one they've done to August 30th, 2020). Due to error on my part, there are duplicates, so that must be handled if you want to use the data. There is also a good chance that some reviews were missed due to error. The unzipped and unpickled form are three Pandas DataFrames that can be combined easily with a concat command. For each entry, the following data is recorded
+The zipped files contain 22908 reviews (in total) from Pitchfork (every one they've done to August 30th, 2020). Due to error on my part, there are duplicates, 
+so that must be handled if you want to use the data. There is also a good chance that some reviews were missed due to error. The unzipped and 
+unpickled form are three Pandas DataFrames that can be combined easily with a concat command. For each entry, the following data is recorded
 
 artist - Name of the music artist
 album - Name of the album
@@ -20,4 +22,5 @@ I'd recommend only scraping the data in batches, creating a feature that saves m
 collect it. Alternatively, you can use the data that I have already collected and save yourself a weekend of scraping.
 
 
-Note: Combining the data frames and getting rid of duplicates resulted in 22794 rows. Based on how many pages there were, it's more likely there are 22823, so it appears about 29 reviews were missed.
+Note: Combining the data frames and getting rid of duplicates resulted in 22794 rows. Based on how many pages there were, it's more likely there are 22823, 
+so it appears about 29 reviews were missed.
